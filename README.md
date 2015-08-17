@@ -6,4 +6,4 @@ Will update this readme as the theme comes together.
 
 ## License
 
-Open souce, MIT License (more in `LICENSE.md`).
+Open souce, MIT License (more in `LICENSE`).

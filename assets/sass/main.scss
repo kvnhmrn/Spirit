@@ -7,5 +7,37 @@ html {
 
 body {
 	font-family: 'Merriweather', $georgia;
-	font-size: 1.25rem;
+	font-size: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.site-wrapper {
+	@include outer-container;
+	padding: 0 5vw;
+}
+
+.main-header {
+	@include row();
+	margin: 2.5vw 0;
+	text-align: center;
+}
+
+.site-footer {
+	@include row();
+	text-align: center;
+	padding: 2.5vw 0;
+}
+
+.content {
+	@include row();
+	margin: 5vw 0;
+	padding: 2.5vw;
+}
+
+article {
+	padding-bottom: 1.5vw;
+	margin: 5vw 0;
 }

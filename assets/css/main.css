@@ -9,6 +9,50 @@ html {
 
 body {
   font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;
-  font-size: 1.25rem; }
+  font-size: 1.2rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+.site-wrapper {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 5vw; }
+  .site-wrapper::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.main-header {
+  display: block;
+  margin: 2.5vw 0;
+  text-align: center; }
+  .main-header::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.site-footer {
+  display: block;
+  text-align: center;
+  padding: 2.5vw 0; }
+  .site-footer::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.content {
+  display: block;
+  margin: 5vw 0;
+  padding: 2.5vw; }
+  .content::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+article {
+  padding-bottom: 1.5vw;
+  margin: 5vw 0; }
 
 /*# sourceMappingURL=main.css.map */
